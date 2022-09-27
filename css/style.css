@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 40px 0;
+    
+}
+
+header {
+    background-color: #2C4BA3;
+    background-image: url(../img/jumbo.png);
+}
+
+.nav-wrapper {
+    display: flex;
+}
+
+.nav-wrapper>div {
+    ;
+    
+    flex-basis: 20%;
+}
+
+.nav-wrapper .logo-container,
+.nav-wrapper .login-container {
+    padding: .5rem .25rem;
+}
+
+.nav-wrapper .login-container{
+    text-align: right;
+}
+
+.nav-wrapper .links-container {
+    flex-grow: 1;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links-container ul {
+    list-style: none;
+    
+}
+
+.links-container ul li {
+    display: inline-block;
+}
+
+.links-container ul li a {
+    padding: .3rem .5rem;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+    border: none;
+    font-weight: bold;
+  }
+
+.btn-white{
+    background-color: white;
+    color: #23272A;
+}
+.btn-small {
+    font-size: .8rem;
+    padding: 8px 10px;
+    font-weight: normal;
+  }
+
+.container{
+    width: 920px;
+    margin: 0 auto;
+    
+    padding: 20px;
+    
+}
+
+.container-small {
+    width: 700px;
+    background-color: #DD79DC;
+   
+    
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-gray{
+    background-color: lightgray;
+}
+
+.bg-black{
+    background-color: #23272A;
+}
+
+.row {
+    display: flex;
+    border: 1px solid green;
+    border: dashed 2px black;
+}
+
+.col {
+    padding: 20px;
+    border: 1px solid yellow;
+    flex-grow: 1;
+    background-color: pink;
+    border-right: dashed 1px black;
+    border-left: dashed 1px black;
+}
+.col-2 {
+    flex-grow: 2;
+    background-color: lightskyblue;
+    
+}
+
+.container-green{
+    background-color: green;
+    border: dashed 2px black;
+    
+}
+
+
+.bg-black .col {
+    background-color: #20B2AA;
+    border: dashed 2px black;
+}
+.bg-black .col-2 {
+    background-color: #F08080;
+    border: dashed 2px black;
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #71DCB8;
+}
+
+.logo-footer {
+    background-color: #B6858C;
+    border: dashed 2px black;
+}
+.button-footer{
+    background-color: #B6858C;
+    border: dashed 2px black;
+}
