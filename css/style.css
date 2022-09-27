@@ -57,6 +57,11 @@ main h3{
     padding: 1.5rem;
     background-image: url(../img/stars.svg);
 }
+footer h3 {
+    color: rgb(126, 145, 208);
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+}
 
 .col2-first-part{
     padding-right: 7rem;
@@ -198,13 +203,13 @@ img{
     padding: 20px;
     flex-grow: 1;
     
-    background-color: pink;
+    
 }
  
 .col-2 {
     
     flex-grow: 4;
-    background-color: lightskyblue;
+    
     
 }
 
@@ -215,20 +220,53 @@ img{
     
 }
 
+.last-class
+{padding: 1rem;
+}
+.mini-title{
+    color:rgb(126, 145, 208) ;
+    
+}
 
+footer ul{
+    list-style: none;
+    text-decoration: none;
+}
 
+footer ul a{
+    text-decoration: none;
+    color: white;
+    
+}
 
+footer ul li{
+    padding-bottom: 0.5rem;
+}
 .container-footer{
     display: flex;
     justify-content: space-between;
-    background-color: #71DCB8;
+    
 }
 
-.logo-footer {
-    background-color: #B6858C;
+.bandiera{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-bottom: 1rem;
     
 }
-.button-footer{
-    background-color: #B6858C;
+
+.social-logo {
+    color: white;
+ 
+}
+.social-logo i {
+    padding-right: 1rem;
+}
+.col-footer{
+    padding-right: 3rem;
+    padding-top: 1rem;
     
 }
+
+footer .bandiera img{width: 20px; height: 20px;}
