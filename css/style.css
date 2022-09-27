@@ -35,11 +35,43 @@ header p {
     padding-bottom: 1.5rem;
 }
 
-h2{
+main p{
     color: #23272A;
 }
 
+h2{
+    color: #23272A;
+    font-size: 2rem;
+}
 
+h3{
+    color: #23272A;
+    font-size: 1.5rem;
+}
+
+main h2{
+    padding-bottom: 1.5rem;
+}
+
+main h3{
+    padding: 1.5rem;
+    background-image: url(../img/stars.svg);
+}
+
+.col2-first-part{
+    padding-right: 7rem;
+    flex-basis: 67%;
+}
+
+.col-first-part{
+flex-basis: 33%;
+
+}
+
+.row-space{
+
+    padding-bottom: 10rem;
+}
 .nav-wrapper {
     display: flex;
 }
@@ -116,6 +148,11 @@ header .btn-white
     font-weight: normal;
   }
 
+.btn-violet {
+    background-color: rgb(126, 145, 208);
+    color: white;
+  }
+
 .container{
     width: 920px;
     margin: 0 auto;
@@ -131,6 +168,10 @@ header .btn-white
     
 }
 
+img{
+    width: 100%;
+    height: auto;
+}
 .bg-blue{
     background-color: blue;
 }
@@ -161,26 +202,21 @@ header .btn-white
 }
  
 .col-2 {
-    flex-grow: 2;
+    
+    flex-grow: 4;
     background-color: lightskyblue;
     
 }
 
 .container-green{
-    background-color: green;
+    
+    text-align: center;
     
     
 }
 
 
-.bg-black .col {
-    background-color: #20B2AA;
-    
-}
-.bg-black .col-2 {
-    background-color: #F08080;
-   
-}
+
 
 .container-footer{
     display: flex;
